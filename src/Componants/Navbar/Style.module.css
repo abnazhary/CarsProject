@@ -1,0 +1,9 @@
+
+
+.navLink{
+    transition: all 0.5s;
+}
+.navLink:hover{
+    border: 1px solid black;
+    border-radius:10px ;
+}

@@ -1,0 +1,18 @@
+.tittle{
+    width: fit-content;
+    background-color: rgba(61, 61, 165, 0.402);
+    color: rgba(46, 46, 230, 0.557);
+    margin: auto;
+    border: 1px solid rgba(0, 0, 255, 0.402);
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+.bg{
+    background-image: url(../../assets/imges/landing-page/bg-sec6.fe11606f40afc830.png);
+    background-position: right top;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-color: rgba(168, 168, 192, 0.402);;
+
+}

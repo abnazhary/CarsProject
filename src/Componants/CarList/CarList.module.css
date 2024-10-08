@@ -1,0 +1,41 @@
+.tittle{
+    width: fit-content;
+    background-color: rgba(61, 61, 165, 0.402);
+    color: rgba(46, 46, 230, 0.557);
+    margin: auto;
+    border: 1px solid rgba(0, 0, 255, 0.402);
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+
+.card {
+    width: 100%;
+    height: 420px; /* ضبط ارتفاع البطاقة */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* توزيع العناصر داخل البطاقة */
+  }
+  
+  .card-img-top {
+    height: 180px; /* ضبط ارتفاع الصورة */
+    object-fit: contain; /* لضمان أن الصورة تكون مرئية بالكامل */
+  }
+  
+  .card-body {
+    flex-grow: 1; /* لتمديد محتوى البطاقة لملء المساحة المتبقية */
+  }
+  
+  .card-body h5 {
+    margin-bottom: 10px; /* تقليل المسافة تحت العنوان */
+  }
+  
+  .btn {
+    width: 100%; /* اجعل الزر يغطي العرض بالكامل */
+    white-space: nowrap; /* منع كسر النص داخل الزر */
+    overflow: hidden; /* منع overflow للنص */
+    text-overflow: ellipsis; /* نص يظهر عند overflow */
+    display: block; /* لملء الـ div بالكامل */
+    margin-top: auto; /* لتحريك الزر لأسفل البطاقة */
+  }
+  

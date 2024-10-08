@@ -1,0 +1,43 @@
+
+  
+  .homeBG{
+    background-image: url(../../assets/imges/landing-page/Frame.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+
+/* Home.css */
+.homeContainer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    overflow: hidden; 
+  }
+  
+  .image, .content {
+    animation: zoomIn 2s forwards; /* انيمشن لكلا العنصرين */
+  }
+  .content{
+    margin-left: 48px;
+  }
+  
+  /* تعريف انيمشن الزوم إن */
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.5); /* يبدأ بحجم أصغر */
+      opacity: 0; /* يبدأ غير مرئي */
+    }
+    to {
+      transform: scale(1); /* ينتهي بالحجم الطبيعي */
+      opacity: 1; /* يصبح مرئي */
+    }
+  }
+
+  /* @media screen and (max-width:992px){
+    .image{
+        width: 50%;
+    }
+  } */
+  
+  
